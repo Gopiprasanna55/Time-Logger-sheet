@@ -72,11 +72,11 @@ app.use((req, res, next) => {
   // }, () => {
   //   log(`serving on port ${port}`);
   // });
-  const port:any = process.env.PORT || 3000;
-
-app.listen(port,"0.0.0.0", () => {
+const port: any = process.env.PORT || 3000;
+app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on ${port}`);
 });
+
 })();
 
 // import express, { type Request, Response, NextFunction } from "express";
