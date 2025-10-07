@@ -74,8 +74,8 @@ app.use((req, res, next) => {
   // });
   const port:any = process.env.PORT || 3000;
 
-app.listen(port,"localhost", () => {
-  console.log(`Server running on http://localhost:${port}`);
+app.listen(port,"0.0.0.0", () => {
+  console.log(`Server running on ${port}`);
 });
 })();
 
