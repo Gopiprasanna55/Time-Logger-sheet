@@ -1,0 +1,75 @@
+   <div style={{
+            position: "absolute",
+            top: "300px",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }} className="w-[620px] bg-white/70 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-200 p-5 ">
+
+            {/* Logo */}
+            <div className="flex gap-3">
+              <div className="flex items-center justify-center" style={{ width: "50px", height: "50px", borderRadius: "10px", backgroundColor: "#21b8f5" }}>
+                <TrendingUp className="w-8 h-8 text-white" />
+              </div>
+
+              <div style={{ width: "520px" }}>
+                <h2
+                  className="text-1xl font-bold m-0"
+                >
+                  Real-time Analytics
+                </h2>
+                <p style={{ fontSize: "13px", color: "#3a3b3dff" }}>
+                 Get instant insights into spending patterns and budget performance with a comprehensive reporting tool. Track all company expenses in real time and categorize costs automatically. Make informed decisions to optimize budgets and improve overall financial performance.
+                </p>
+              </div>
+            </div>
+          </div>
+           <div style={{
+            position: "absolute",
+            top: "480px",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }} className="w-[620px] bg-white/70 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-200 p-5 ">
+
+            {/* Logo */}
+            <div className="flex gap-3">
+              <div className="flex items-center justify-center" style={{ width: "50px", height: "50px", borderRadius: "10px", backgroundColor: "#21b8f5" }}>
+                <BarChart className="w-8 h-8 text-white" />
+              </div>
+
+              <div style={{ width: "520px" }}>
+                <h2
+                  className="text-1xl font-bold m-0"
+                >
+                  Spending Insights
+                </h2>
+                <p style={{ fontSize: "13px", color: "#3a3b3dff" }}>
+                  Get instant visibility into company expenditures with detailed analytics and reporting tools. Monitor spending in real time and categorize expenses automatically. Make informed decisions to optimize budgets and reduce costs efficiently.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div style={{
+            position: "absolute",
+            top: "660px",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+          }} className="w-[620px] bg-white/70 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-200 p-5 ">
+
+            {/* Logo */}
+            <div className="flex gap-3">
+              <div className="flex items-center justify-center" style={{ width: "50px", height: "50px", borderRadius: "10px", backgroundColor: "#21b8f5" }}>
+                <DollarSign  className="w-8 h-8 text-white" />
+              </div>
+
+              <div style={{ width: "520px" }}>
+                <h2
+                  className="text-1xl font-bold m-0"
+                >
+                  Cost Control
+                </h2>
+                <p style={{ fontSize: "13px", color: "#3a3b3dff" }}>
+                 Track and manage every expense efficiently, reducing waste and improving financial performance. Monitor all company expenditures in real time and categorize costs automatically. Gain actionable insights to optimize budgets and make informed financial decisions.
+                </p>
+              </div>
+            </div>
+          </div>
